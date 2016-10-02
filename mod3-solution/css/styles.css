@@ -1,1 +1,83 @@
+/* Basic Styles */
 
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-color: #9a1c1f;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Header */
+
+#header-nav {
+  background-color: #cbc7a1;
+  color: #9a1c1f;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  color: #9a1c1f;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin: 5px -15px;
+}
+
+#nav-list a {
+  color: #9a1c1f;
+  text-align: center;
+}
+
+#nav-list a:hover, #nav-list a.active {
+  background: #9a1c1f;
+  color: #fff;
+}
+
+.navbar {
+  margin-bottom: 0
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #9a1c1f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+  }
+/* end header */
+
+/* main content */
+
+h2 {
+  margin-bottom: 25px;
+}
+
+#main-content .row {
+  margin:15px;
+  background-color: #e8e3b5;
+  color: #9a1c1f;
+}
