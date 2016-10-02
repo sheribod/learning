@@ -76,8 +76,17 @@ h2 {
   margin-bottom: 25px;
 }
 
+a {
+  color: #333;
+}
+
 #main-content .row {
   margin:15px;
+}
+
+.menu-tiles {
   background-color: #e8e3b5;
   color: #9a1c1f;
+  padding: 10px 20px;
+  margin: 10px 0px;
 }
